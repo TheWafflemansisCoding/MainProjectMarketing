@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+/*---------------------------------*/
+
+
+/*---------------------------------*/
+.headerNav ul{
+ list-style: none;
+ display: flex;
+ justify-content: space-around;
+}
+/*---------------------------------*/
+main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+/*---------------------------------*/
+section{
+    margin: 10px;
+}
+/*---------------------------------*/
+.sect1{
+    display: flex;
+    flex-flow: row wrap;
+}
+.sect1.ct{ 
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.ct_motto{
+    flex-grow: 2;
+}
+.ct_motto img{
+    position: relative;
+    top: 0;
+    left: 50%;
+}
+.sect1.ct div{
+    flex-basis: 33%;
+    margin: 8px;
+}
+.Sectmotto{
+    flex-shrink: 2;
+    text-align: center;
+}
+.sectform{
+    width: 75%;
+}
+.sectform_ct{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    border: 3px solid black;
+    flex-shrink: 2;
+}
+/*---------------------------------*/
+.sect2{
+    display: flex;
+    flex-flow: row wrap;
+}
+.sect2.ct1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sect2.ct2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+}
+.sect2.ct3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+}
+/*---------------------------------*/
+.sect3{
+    display: flex;
+    justify-content: centr;
+    align-items: center;
+    text-align: center;
+}
+#buttomDIV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*----------------------------------*/
+.sect4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.sect4 div{
+    flex-basis: 50%;
+}
+.sect4CT{
+    display: flex;
+    flex-flow: column wrap;
+}
+/*----------------------------------*/
+.sect5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: lightblue;
+    gap: 16px 32px;
+
+}
+.grid-container > div{
+    background-color: red;
+    padding: 16px;
+}
